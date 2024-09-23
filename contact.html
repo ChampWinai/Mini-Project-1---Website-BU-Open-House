@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <!-- Navbar Section -->
+
+    <nav
+      class="navbar navbar-expand-lg navbar-dark mb-1 sticky-top"
+      style="background-color: #000000"
+    >
+      <a class="navbar-brand" href="index.html">BU Open House Event</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About Event</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="schedule.html">Event Schedule</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="map.html">Map</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="contact.html"
+              >Contact Us <span class="sr-only">(current)</span></a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Contact Us Section -->
+    <section class="contact-us py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h1 class="hero-title">Contact Us</h1>
+            <h5 style="padding-top: 10px">
+              หากคุณมีคำถามใดๆ โปรดติดต่อเรา เรายินดีรับฟังความคิดเห็นของคุณ!
+            </h5>
+          </div>
+        </div>
+
+        <div class="row">
+          <!-- Contact Form -->
+          <div class="col-md-6">
+            <h2>Send Us a Message</h2>
+            <form>
+              <div class="form-group">
+                <label for="name">Your Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="name"
+                  placeholder="Enter your name"
+                />
+              </div>
+              <div class="form-group">
+                <label for="email">Email address</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  placeholder="Enter your email"
+                />
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea
+                  class="form-control"
+                  id="message"
+                  rows="5"
+                  placeholder="Enter your message"
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+          </div>
+
+          <!-- Contact Information -->
+          <div class="col-md-6">
+            <h2>Our Contact Information</h2>
+            <ul class="list-unstyled">
+              <li>
+                <strong>Address : </strong> 9/1 หมู่ 5 ถนนพหลโยธิน ตำบลคลองหนึ่ง
+                อำเภอคลองหลวง จังหวัดปทุมธานี 12120
+              </li>
+              <li><strong>Phone : </strong> 02 407 3888</li>
+              <li><strong>Email : </strong> info@bu.ac.th</li>
+              <li>
+                <strong>Office Hours : </strong> จันทร์ - ศุกร์ (09:00-18:00)
+              </li>
+            </ul>
+            <h2>Follow Us</h2>
+            <div class="text-icon">
+              <ul class="list-inline social-icons">
+                <li class="list-inline-item">
+                  <a href="https://www.facebook.com/bangkokuniversity">
+                    <img
+                      src="https://cdn-icons-png.flaticon.com/128/733/733547.png"
+                      alt="Facebook"
+                    />
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="https://www.instagram.com/bangkok_bu/">
+                    <img
+                      src="https://cdn-icons-png.flaticon.com/128/174/174855.png"
+                      alt="Instagram"
+                    />
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bootstrap JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
